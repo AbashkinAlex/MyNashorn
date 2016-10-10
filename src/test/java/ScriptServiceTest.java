@@ -15,7 +15,7 @@ public class ScriptServiceTest {
     public void testStoppableFuture() throws ExecutionException, InterruptedException {
         FutureTaskService<Integer> task = new FutureTaskService<>( () -> {
             int i = 0;
-            while(i < 250_000) {
+            while(i < 100_000) {
                 try {
                     i++;
                     // comment out next line to see Thread.stop() in action. Thread.sleep() is interruptible, whereas tight calculation cycle isn't
