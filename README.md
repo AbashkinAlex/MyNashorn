@@ -18,3 +18,5 @@ github link https://github.com/AbashkinAlex/MyNashorn/
 
 branch: master
 
+and start testing...
+
